@@ -6,7 +6,7 @@ import time
 ROOT            = os.path.dirname(__file__)
 MESSAGE_PATH    = os.path.join(ROOT, "MESSAGE.TXT")
 
-BREAK_TIME = 0.2
+BREAK_TIME = 0.1
 
 if not os.path.exists(MESSAGE_PATH):
     open(MESSAGE_PATH, 'w').close()
@@ -20,7 +20,7 @@ root = tkinter.Tk()
 root.configure(bg='black')
 root.attributes('-fullscreen', True)
 
-label = tkinter.Label(root, text='', font=('Courier', 50), fg='white', bg='black')
+label = tkinter.Label(root, text='', font=('Times New Roman', 50, 'italic'), fg='white', bg='black')
 label.place(relx=0.5, rely=0.5, anchor='center')
 
 
