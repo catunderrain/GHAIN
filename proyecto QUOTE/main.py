@@ -6,7 +6,7 @@ import time
 ROOT            = os.path.dirname(__file__)
 MESSAGE_PATH    = os.path.join(ROOT, "MESSAGE.TXT")
 
-BREAK_TIME = 0.2
+BREAK_TIME = 0.3
 
 if not os.path.exists(MESSAGE_PATH):
     open(MESSAGE_PATH, 'w').close()
